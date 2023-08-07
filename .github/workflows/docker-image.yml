@@ -11,6 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{TOKEN_GITHUB}}
     - name: Check out the repo
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USERNAME }}
