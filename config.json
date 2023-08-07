@@ -1,0 +1,32 @@
+{
+    "schedule_min": 1,
+    "loglevel": "debug",
+    "accounts": [
+        {
+            "account1": {
+                "source_login": "sourcelogin1",
+                "source_password": "sourcepwd1",
+                "source_server": "imap.source1.org",
+                "source_port": 993,
+                "source_purge": false,
+                "target_login": "targetlogin1",
+                "target_password": "targetpwd1",
+                "target_server": "imap.target.net",
+                "target_port": 993
+            }
+        },
+        {
+            "account2": {
+                "source_login": "sourcelogin2",
+                "source_password": "sourcepwd2",
+                "source_server": "imap.source2.net",
+                "source_port": 993,
+                "source_purge": false,
+                "target_login": "targetlogin2",
+                "target_password": "targetpwd2",
+                "target_server": "imap.target.com",
+                "target_port": 993
+            }
+        }
+    ]
+}
